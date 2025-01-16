@@ -1,4 +1,13 @@
 train: /home/saugat/Codelinux/CustomObjectDetectionUsingYOLO/data/train/images
 val: /home/saugat/Codelinux/CustomObjectDetectionUsingYOLO/data/val/images
-nc: 2
-names: ["Gun", "Pistol"]
+test: /home/saugat/Codelinux/CustomObjectDetectionUsingYOLO/data/test/images
+
+nc: 3
+names: ['Gun', 'Knife', 'Pistol']
+
+roboflow:
+  workspace: document-classification
+  project: weapon_detection-leyfd-jphu6
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/document-classification/weapon_detection-leyfd-jphu6/dataset/1
